@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denver Broncos Fan Page</title>
+    <link href="sports.style.css">
+    <link rel="stylesheet" href="sports.style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: #ADD8E6;">
+
+    <!-- Title Section -->
+    <header>
+        <h1>Welcome to the Denver Broncos Fan Page!</h1>
+        <nav>
+            <ul>
+                <li><a href="#team-history">Team History</a></li>
+                <li><a href="#super-bowls">Super Bowls</a></li>
+                <li><a href="#best-players">Best Current Players</a></li>
+                <li><a href="#tableau-graph">Tableau Graph</a></li>
+                <li><a href="#game-highlights-video">Game Highlights</a></li>
+                <li><a href="AIgame.html">Play the Number Guessing Game</a></li> <!-- Link to the guessing game -->
+            </ul>
+        </nav>
+    </header>
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="index.html" style="text-decoration: none; font-size: 20px; color: #007bff;">Link to Resume Site</a>
+    </div>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Team History Section -->
+        <section id="team-history">
+            <h2>Team History</h2>
+            <p>The Denver Broncos were founded in 1960 as part of the AFL. Since then, the team has grown into one of the most iconic franchises in the NFL.</p>
+            <!-- Image 1 -->
+            <img src="Broncoslogo.png" alt="Team History Image">
+        </section>
+
+        <!-- Super Bowls Section -->
+        <section id="super-bowls">
+            <h2>Super Bowl Victories</h2>
+            <p>The Denver Broncos have won the Super Bowl 3 times:</p>
+            <!-- Ordered list with an embedded unordered list -->
+            <ol>
+                <li>Super Bowl XXXII (1997)
+                    <ul>
+                        <li>Opponent: Green Bay Packers</li>
+                        <li>Score: 31-24</li>
+                    </ul>
+                </li>
+                <li>Super Bowl XXXIII (1998)
+                    <ul>
+                        <li>Opponent: Atlanta Falcons</li>
+                        <li>Score: 34-19</li>
+                    </ul>
+                </li>
+                <li>Super Bowl 50 (2015)
+                    <ul>
+                        <li>Opponent: Carolina Panthers</li>
+                        <li>Score: 24-10</li>
+                    </ul>
+                </li>
+            </ol>
+            <!-- Image 2 -->
+            <img src="superbowltrophy.jpg" alt="Super Bowl Trophy">
+        </section>
+
+        <!-- Best Players Section -->
+        <section id="best-players">
+            <h2>Best Current Players</h2>
+            <p>Some of the top players currently on the Broncos roster include:</p>
+            <ul>
+                <li>Patrick Surtain II (CB)</li>
+                <li>Bo Nix (QB)</li>
+                <li>Courtland Sutton (WR)</li>
+                <li>Nik Bonnitto (L)</li>
+            </ul>
+        </section>
+
+        <!-- Embed Tableau Graph Section (log in to Tableau to see graph)-->
+        <section id="tableau-graph">
+            <h2>Broncos Passing and Rushing Yards</h2>
+            <p>Below is an interactive Tableau graph showing the correlation between the Denver Broncos' passing and rushing yards the last 10 years:</p>
+            <!-- Tableau Embed Code -->
+            <script type='module' src='https://10ay.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script>
+            <tableau-viz id='tableau-viz' src='https://10ay.online.tableau.com/t/kdhoops05-07fb57750a/views/hi/Sheet1' width='1468' height='722' hide-tabs toolbar='bottom'></tableau-viz>
+        </section>
+
+        <!-- New Game Highlights Video Section: I cant get the video to load unless you go onto Youtube... looked at W3 schools and did what they said to do -->
+        <section id="game-highlights-video">
+            <h2>Indianapolis Colts vs. Denver Broncos | 2024 Week 15 Game Highlights</h2>
+            <p>Watch the highlights of the Denver Broncos' thrilling game against the Indianapolis Colts in Week 15 of the 2024 NFL season:</p>
+            <!-- New YouTube Embed Code -->
+            <iframe width="971" height="546" src="https://www.youtube.com/embed/m00_tLPg0oI" title="Denver Broncos Highlights vs. Indianapolis Colts | 2024 Regular Season Week 15" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

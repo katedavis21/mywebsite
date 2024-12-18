@@ -1,0 +1,147 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Anton', sans-serif;
+    line-height: 1.6;
+    background-color: #002244; /* Broncos Navy Blue */
+    color: #ffffff; /* White Text */
+}
+
+/* Header Styling */
+header {
+    background-color: #FB4F14; /* Broncos Orange */
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 5px solid #002244;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Navigation Bar Styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #002244; /* Navy Blue on Hover */
+}
+
+/* Main Content Styling */
+main {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #FFFFFF; /* White Background for Content */
+    color: #002244; /* Navy Text */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+main h2 {
+    color: #FB4F14; /* Orange Headings */
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #FB4F14;
+    padding-bottom: 0.5rem;
+}
+
+main p, main ul {
+    margin-bottom: 1rem;
+}
+
+main img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 1rem auto;
+    border: 3px solid #FB4F14;
+    border-radius: 5px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #002244;
+    color: #FFFFFF;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    border-top: 5px solid #FB4F14;
+}
+
+body {
+    background-color: #ADD8E6; /* Light blue color */
+    font-family: 'Anton', sans-serif; /* Ensure the font is applied */
+}
+
+/* Set background color for the entire page */
+html {
+    height: 100%; /* Ensure the html element covers the full viewport */
+    background-color: #ADD8E6; /* Light blue for the outermost background */
+}
+
+/* Apply navy background color to the body content */
+body {
+    background-color: #000080; /* Navy blue */
+    font-family: 'Anton', sans-serif; /* Set the font to Anton for the page */
+    color: #fff; /* White text color for contrast */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Additional styles for header, sections, etc. */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #fff; /* White title text */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff; /* White text for links */
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff; /* White footer text */
+}
